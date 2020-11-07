@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.example.demo.domain.Categoria;
+import com.example.demo.domain.Produto;
 import com.example.demo.repositories.CategoriaRepository;
 import com.example.demo.repositories.ProdutoRepository;
 
@@ -41,7 +42,7 @@ public class CursoApplication implements CommandLineRunner {
 		p3.getCategorias().addAll(Arrays.asList(cat1));
 		
 		categoriaRepository.saveAll(Arrays.asList(cat1, cat2));
-		produtoRepository.saveAll(Arrays.asList(p1, p2, p3));
+		produtoRepository.saveAll(Arrays.asList(p1,p2,p3));
 	}
 
 }

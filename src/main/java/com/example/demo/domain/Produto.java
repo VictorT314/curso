@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -11,8 +11,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-
-import com.example.demo.domain.Categoria;
 
 @Entity
 public class Produto implements Serializable{

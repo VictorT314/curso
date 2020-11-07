@@ -10,7 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
-import com.example.demo.Produto;
+
 
 @Entity
 public class Categoria implements Serializable{
